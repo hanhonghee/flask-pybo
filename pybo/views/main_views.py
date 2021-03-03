@@ -9,7 +9,7 @@ def hello_pybo():
     return 'Hello, Pybo!'
 
 
-#@bp.route('/')
+@bp.route('/')
 #@bp.route('/question/list')
 def index():
     #question, _list 순서로 해석되어 함수명을 찾아준다
